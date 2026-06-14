@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Set-Location \"C:\\\\Users\\\\HP\\\\Documents\\\\Viva Consciente\"; Get-ChildItem -Recurse -File | Where-Object { $_.FullName -notmatch 'node_modules' } | Select-Object FullName | Sort-Object FullName)",
+      "Bash(npm run *)"
+    ]
+  }
+}
