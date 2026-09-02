@@ -289,9 +289,8 @@ export default function Contact() {
                   </svg>
                 }
                 label="E-mail"
-                // Substitua pelo endereço de e-mail real
-                value="julia@vivaconsciente.com.br"
-                href="mailto:julia@vivaconsciente.com.br"
+                value="julia.m.floresss@gmail.com"
+                href="mailto:julia.m.floresss@gmail.com"
               />
 
               {/* Hours */}

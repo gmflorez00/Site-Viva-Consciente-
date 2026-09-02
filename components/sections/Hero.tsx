@@ -129,11 +129,10 @@ export default function Hero() {
               crescimento pessoal — no conforto da sua casa.
             </p>
             <p className="text-sm font-medium text-brown-600/80 tracking-wide">
-              {/* Substitua [número CRP] pelo número real da psicóloga */}
               <span className="font-semibold text-brown-900">
                 Julia Macedo Flores
               </span>{" "}
-              · Psicóloga Clínica · CRP: [número CRP]
+              · Psicóloga Clínica · CRP: 06/191966
             </p>
           </motion.div>
 

@@ -44,7 +44,7 @@ export default function ChatWidget() {
             />
             <button
               onClick={open}
-              className="relative w-14 h-14 rounded-full shadow-lg flex items-center justify-center transition-transform duration-200 hover:scale-105 active:scale-95 focus:outline-none focus:ring-2 focus:ring-offset-2"
+              className="relative block w-14 h-14 rounded-full shadow-lg flex items-center justify-center transition-transform duration-200 hover:scale-105 active:scale-95 focus:outline-none focus:ring-2 focus:ring-offset-2"
               style={{
                 backgroundColor: "#557A45",
               }}

@@ -11,8 +11,7 @@ const footerLinks = [
 const socialLinks = [
   {
     label: "Instagram",
-    href: "https://instagram.com/vivaconsciente",
-    // Substitua pelo perfil real do Instagram
+    href: "https://instagram.com/vivaconscientepsi",
     icon: (
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true">
         <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
@@ -67,10 +66,8 @@ export default function Footer() {
               Psicologia clínica online com acolhimento, ética e
               comprometimento com o seu bem-estar emocional.
             </p>
-            {/* CRP */}
-            {/* Substitua pelo número real de CRP */}
             <p className="text-cream-50/40 text-xs font-medium">
-              CRP: [00/00000] · Julia Macedo Flores
+              CRP: 06/191966 · Julia Macedo Flores
             </p>
           </div>
 
@@ -110,17 +107,15 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="text-cream-50/60 text-sm hover:text-sage-400 transition-colors duration-200 flex items-center gap-2"
                 >
-                  {/* Substitua pelo número real */}
-                  WhatsApp: (11) 99999-9999
+                  WhatsApp: (11) 96917-1629
                 </a>
               </li>
               <li>
                 <a
-                  href="mailto:julia@vivaconsciente.com.br"
-                  // Substitua pelo e-mail real
+                  href="mailto:julia.m.floresss@gmail.com"
                   className="text-cream-50/60 text-sm hover:text-sage-400 transition-colors duration-200"
                 >
-                  julia@vivaconsciente.com.br
+                  julia.m.floresss@gmail.com
                 </a>
               </li>
               <li className="text-cream-50/60 text-sm">

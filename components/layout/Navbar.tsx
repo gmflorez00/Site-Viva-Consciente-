@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
 
 const navLinks = [
   { label: "Sobre", href: "#sobre" },
@@ -57,25 +58,36 @@ export default function Navbar() {
               e.preventDefault();
               window.scrollTo({ top: 0, behavior: "smooth" });
             }}
-            className="flex flex-col leading-tight group"
+            className="flex items-center gap-3 group"
             aria-label="Viva Consciente — página inicial"
           >
-            {/* Two-line logo with weight contrast for elegance */}
-            <span
-              className={`font-bold text-xl tracking-tight transition-colors duration-300 ${
-                scrolled ? "text-brown-900" : "text-brown-900"
-              }`}
-            >
-              Viva
-            </span>
-            <span
-              className={`font-light text-base tracking-widest uppercase transition-colors duration-300 ${
-                scrolled ? "text-sage-400" : "text-sage-400"
-              }`}
-              style={{ letterSpacing: "0.18em" }}
-            >
-              Consciente
-            </span>
+            <div className="relative w-14 h-14 rounded-full overflow-hidden shrink-0">
+              <Image
+                src="/logo-planta.png"
+                alt="Logo Viva Consciente"
+                fill
+                className="object-cover"
+                sizes="56px"
+                priority
+              />
+            </div>
+            <div className="flex flex-col leading-tight">
+              <span
+                className={`font-bold text-xl tracking-tight transition-colors duration-300 ${
+                  scrolled ? "text-brown-900" : "text-brown-900"
+                }`}
+              >
+                Viva
+              </span>
+              <span
+                className={`font-light text-base tracking-widest uppercase transition-colors duration-300 ${
+                  scrolled ? "text-sage-400" : "text-sage-400"
+                }`}
+                style={{ letterSpacing: "0.18em" }}
+              >
+                Consciente
+              </span>
+            </div>
           </a>
 
           {/* Desktop Navigation Links */}
